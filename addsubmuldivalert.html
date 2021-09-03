@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            var a,b,c;
+            a=Number(document.getElementById("first").value);
+            b=Number(document.getElementById("second").value);
+            c=a+b;
+            window.alert("sum is:"+ c)
+
+        }
+        function sub(){
+            var a,b,c;
+            a=Number(document.getElementById("first").value);
+            b=Number(document.getElementById("second").value);
+            c=a-b;
+            window.alert("sub is:"+ c)
+
+        }
+        function mul(){
+            var a,b,c;
+            a=Number(document.getElementById("first").value);
+            b=Number(document.getElementById("second").value);
+            c=a*b;
+            window.alert("mul is:"+ c)
+
+        }
+        function div(){
+            var a,b,c;
+            a=Number(document.getElementById("first").value);
+            b=Number(document.getElementById("second").value);
+            c=a/b;
+            window.alert("div is:"+ c)
+
+        }
+
+    </script>
+</head>
+<body>
+    enter the first number :<input id="first"><br>
+    enter the second number :<input id="second"><br>
+    <button onclick="add()">sum</button><br>
+    <button onclick="sub()">sub</button><br>
+  
+    <button onclick="mul()">mul</button><br>
+  
+    <button onclick="div()">div</button><br>
+  
+  
+</body>
+</html>
